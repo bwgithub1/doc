@@ -12,3 +12,9 @@ https://github.com/bwgithub1/doc.git
 
 error fixing: "error: remote origin already exists."
 type:  git remote remove origin
+
+push change
+git checkout main
+git add note.txt
+git commit -m "Added comment"
+git push -u origin
