@@ -1,0 +1,141 @@
+
+6/28/2022 ---deploy Django to Heroku
+https://www.geeksforgeeks.org/how-to-deploy-react-app-to-heroku/
+https://www.youtube.com/watch?v=5QfylAzoqSI
+
+python manage.py createsupperuser
+
+6/17/2022 ------how to create postgres on Azure
+https://www.youtube.com/watch?v=bMF5LBcVPH8
+https://www.youtube.com/watch?v=BgvEOkcR0Wk
+
+https://www.youtube.com/watch?v=DJd-Mr6nalc
+psql "wpostgresql.postgres.database.azure.com port=5432 dbname=postpres user=wdb@wpostgresql sslmode=require"
+
+Server=tcp:wpostgresql.database.windows.net,1433;
+Initial Catalog=postgresql;
+Persist Security Info=False;
+User ID=wdb;
+Password={your_password};
+MultipleActiveResultSets=False;
+Encrypt=True;
+TrustServerCertificate=False;
+Connection Timeout=30;
+
+setting local firewall:
+IP: 40.78.225.32 (wpostgresql.database.windows.net) 
+port:1433
+
+---------- view django postgre --------
+YouTybe:
+https://www.youtube.com/watch?v=Pwwz4_AvHDU  --> Django Project
+https://www.youtube.com/watch?v=WsBYK5Nv2V8  --> Django and React
+
+venv\Scripts\python.exe -m pip install --upgrade pip
+py -3 -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+venv\scripts\activate 
+
+pip install django
+pip install djangorestframework
+pip install django-cors-headers
+
+djando-admin --version
+4.0.5
+djando-admin startproject DjangoApp
+
+python manage.py runserver
+python manage.py startapp EmployeeApp
+
+pip install djangorestframework
+
+python manage.py makemigrations EmployeeApp
+python manage.py migrate EmployeeApp
+
+select * from public."EmployeeApp_departments"
+
+select * from public."EmployeeApp_employees"
+
+http://127.0.0.1:8000/department
+http://127.0.0.1:8000/employee
+-------------------------
+https://www.youtube.com/watch?v=rDnWnQzTvGo   vue django postgres
+
+https://github.com/spring-guides/tut-spring-boot-kotlin
+
+---- json view
+http://jsonviewer.stack.hu/
+https://www.convertcsv.com/json-to-csv.htm
+
+----------- react Youtub
+https://www.youtube.com/watch?v=RVFAyFWO4go
+https://www.youtube.com/watch?v=pAzqscDx580
+
+--------- python auth Bryan Dunn
+https://www.youtube.com/watch?v=QFDyXWRYQjY part1
+https://www.youtube.com/watch?v=fr3yF30GWi0 part2
+
+----- run django proj
+https://www.sitepoint.com/start-django-project-app/
+------------------ steps --------------
+
+1. database installation:
+https://www.youtube.com/watch?v=C93Ed8b8Mhc
+download PostgeSql
+
+install python
+create venv 
+
+
+create database of auty_system
+create a folder in C:\dev\react_proj\auth_system
+
+https://www.django-rest-framework.org/#:~:text=CryptAPI%2C%20and%20FEZTO.-,Requirements,%2C%203.1%2C%203.2%2C%204.0)
+
+pip install -r requirements.txt
+
+
+py -3 --version
+Python 3.10.5
+Installed Pythons found by C:\Windows\py.exe Launcher for Windows
+ -3.10-64 *
+
+https://code.visualstudio.com/docs/python/python-tutorial
+py -3 -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+venv\scripts\activate 
+
+pip install django
+pip install djangorestframework
+pip install djangorestframework-simplejwt
+pip install whitenoise
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 
+
+
+https://stackoverflow.com/questions/8921188/issue-with-virtualenv-cannot-activate
+open the folder with any gitbash console. for example using visualCode and Gitbash console program: 1)Install Gitbash for windows
+2) using VisualCode IDE, right click over the project open in terminal console option
+3) on window console in Visualcode, looking for a Select->default shell and change it for Gitbash
+4)now your project is open with bash console and right path, put source ./Scripts/activate
+btw : . with blank space = source
+
+pip install django djangorestframework djangorestframework-simplejwt djoser psycopg2 psycopg2-binary
+                   
+pip install djangorestframework
+pip install -U djoser    
+
+--------- python auth Bryan Dunn
+https://www.youtube.com/watch?v=QFDyXWRYQjY part1
+https://www.youtube.com/watch?v=fr3yF30GWi0 part2
+
+-------- crerate Django project
+https://www.sitepoint.com/start-django-project-app/
+
+
+
+
+
+
