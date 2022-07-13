@@ -1,6 +1,6 @@
 ------ github
 07/12/2022
-…or create a new repository on the command line
+… create a new repository on the command line
 echo "# doc" >> README.md
 git init
 git add README.md
@@ -9,3 +9,6 @@ git branch -M main
 git remote add origin https://github.com/bwgithub1/doc.git
 git push -u origin main
 https://github.com/bwgithub1/doc.git
+
+error fixing: "error: remote origin already exists."
+type:  git remote remove origin
