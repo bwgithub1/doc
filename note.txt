@@ -1,0 +1,10 @@
+------ github
+07/12/2022
+…or create a new repository on the command line
+echo "# doc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bwgithub1/doc.git
+git push -u origin main
