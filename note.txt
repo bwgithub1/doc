@@ -1,6 +1,7 @@
 ------ github
 07/12/2022
 … create a new repository on the command line
+C:\dev\gitlocal\doc
 echo "# doc" >> README.md
 git init
 git add README.md
