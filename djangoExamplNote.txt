@@ -1,3 +1,9 @@
+7/13/2022  --https://www.interviewbit.com/blog/django-projects/
+15+ Django Projects With Source Code
+
+
+7/13/2022 --basic web
+https://www.youtube.com/watch?v=ey8EXTjRuag
 
 6/28/2022 ---deploy Django to Heroku
 https://www.geeksforgeeks.org/how-to-deploy-react-app-to-heroku/
@@ -36,6 +42,8 @@ py -3 -m venv venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 venv\scripts\activate 
 
+check django version: python -m django version
+4.0.5
 pip install django
 pip install djangorestframework
 pip install django-cors-headers

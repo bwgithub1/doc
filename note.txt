@@ -4,11 +4,13 @@
 C:\dev\gitlocal\doc
 echo "# doc" >> README.md
 git init
-git add README.md
+git add note.txt
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/bwgithub1/doc.git
 git push -u origin main
+(git push --set-upstream origin master) when error
+
 https://github.com/bwgithub1/doc.git
 
 error fixing: "error: remote origin already exists."
@@ -19,3 +21,7 @@ git checkout main
 git add note.txt
 git commit -m "Added comment"
 git push -u origin
+
+git retlog	(show logs)
+rm -fr .git  (remove .git folder and subfolders)
+
