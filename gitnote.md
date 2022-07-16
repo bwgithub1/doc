@@ -23,4 +23,8 @@ git push -u origin
 git retlog  (show logs) 
 rm -fr .git (remove .git folder and subfolders) 
 ```
+## Links
+```
+https://www.toolsqa.com/git/git-tutorial/   (ToolsQA)
+```
 
