@@ -6,9 +6,10 @@ Pre requests
 	install git
 	install herocu CLI
 	Creat a free account of Heroku	(https://signup.heroku.com/)
-login in Heroku web and create new app
 use Heroku CLI (on CMD ternual) type: heroku login
-After login, back to CLI
+After login, 
+on CLI login in Heroku web create new app and follow instruction on new app page
+	create three files:
 ```
 #### https://www.youtube.com/watch?v=HgDEFnMV16k
 #### https://www.youtube.com/c/LegionScript  (top YouTub)
