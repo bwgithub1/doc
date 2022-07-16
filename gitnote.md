@@ -20,7 +20,7 @@ git push -u origin
 ```
 ## Commants
 ```
-git retlog	(show logs) 
-rm -fr .git  (remove .git folder and subfolders) 
+git retlog  (show logs) 
+rm -fr .git (remove .git folder and subfolders) 
 ```
 
