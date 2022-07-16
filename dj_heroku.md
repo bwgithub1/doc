@@ -1,4 +1,5 @@
-# Django Heroku  ####07/12/2022
+# Django Heroku  
+#### 07/12/2022
 #### https://www.youtube.com/watch?v=HgDEFnMV16k
 
 ```
@@ -11,12 +12,14 @@ Configuring Django on Heroku:
 Legion Script:
 	https://www.legionscript.com/
 ```
-### Food deliver web site
+## Sample links
+
+#### Food deliver web site
 ```
 	https://www.youtube.com/playlist?list=PLPSM8rIid1a0qiCpbfujex5lZoXr2SRFC
-
 Starting Code:
 	https://github.com/legionscript/deliver/tree/tutorial6
 Ending Code:
 	https://github.com/legionscript/deliver/tree/tutorial7
+```
 
