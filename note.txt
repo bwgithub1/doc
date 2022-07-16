@@ -1,6 +1,6 @@
 ------ github
 07/12/2022
-… create a new repository on the command line
+â€¦ create a new repository on the command line
 C:\dev\gitlocal\doc
 echo "# doc" >> README.md
 git init
@@ -24,4 +24,9 @@ git push -u origin
 
 git retlog	(show logs)
 rm -fr .git  (remove .git folder and subfolders)
+
+create venv using CMD
+C:\dev\gitlocal\python-getting-started>python -m venv myVenv
+C:\dev\gitlocal\python-getting-started>.\venv\Scripts\activate
+(venv) C:\dev\gitlocal\python-getting-started>
 
