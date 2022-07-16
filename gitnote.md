@@ -1,5 +1,5 @@
 # Git commants
-####07/12/2022
+07/12/2022
 
 ## create a new repository on the command line
 ```
@@ -18,6 +18,9 @@ git add note.txt
 git commit -m "Added comment" 
 git push -u origin 
 ```
-### git retlog	(show logs) 
-### rm -fr .git  (remove .git folder and subfolders) 
+## Commants
+```
+git retlog	(show logs) 
+rm -fr .git  (remove .git folder and subfolders) 
+```
 
