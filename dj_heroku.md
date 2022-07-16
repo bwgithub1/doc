@@ -6,10 +6,12 @@ Pre requests
 	install git
 	install herocu CLI
 	Creat a free account of Heroku	(https://signup.heroku.com/)
-use Heroku CLI (on CMD ternual) type: heroku login
+	
+	Create three files in the project to be deployed
+Using Heroku CLI (on CMD ternual) type: heroku login
 After login, 
 on CLI login in Heroku web create new app and follow instruction on new app page
-	create three files:
+An new applicationi bw_djlogin is created on 7/16/2022
 ```
 #### https://www.youtube.com/watch?v=HgDEFnMV16k
 #### https://www.youtube.com/c/LegionScript  (top YouTub)
