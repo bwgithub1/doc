@@ -1,7 +1,17 @@
 # Django Heroku  
-
+## Steps of deployment
+re requests
+```
+Pre requests
+	install git
+	install herocu CLI
+	Creat a free account of Heroku	(https://signup.heroku.com/)
+login in Heroku web and create new app
+use Heroku CLI (on CMD ternual) type: heroku login
+After login, back to CLI
+```
 #### https://www.youtube.com/watch?v=HgDEFnMV16k
-
+#### https://www.youtube.com/c/LegionScript  (top YouTub)
 
 ## Document 
 ```
