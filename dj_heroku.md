@@ -7,6 +7,9 @@ Pre requests
 	install herocu CLI
 	Creat a free account of Heroku	(https://signup.heroku.com/)
 	
+	#Use psycopg2-binary instead of psycopg2.
+	pip install psycopg2-binary
+	
 	Create three files in the project to be deployed
 Using Heroku CLI (on CMD ternual) type: heroku login
 After login, 
