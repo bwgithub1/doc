@@ -1,6 +1,7 @@
 # Django Heroku  
+https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#install-app-dependencies-locally
 ## Steps of deployment
-re requests
+Pre requests
 ```
 Pre requests
 	install git
@@ -15,6 +16,8 @@ Using Heroku CLI (on CMD ternual) type: heroku login
 After login, 
 on CLI login in Heroku web create new app and follow instruction on new app page
 An new applicationi bw_djlogin is created on 7/16/2022
+
+heroku local -f Procfile.windows
 ```
 #### https://www.youtube.com/watch?v=HgDEFnMV16k
 #### https://www.youtube.com/c/LegionScript  (top YouTub)
