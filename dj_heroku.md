@@ -28,9 +28,17 @@ Pre requests
 	pip install psycopg2-binary
 	
 	-- Create three files in the project to be deployed
+	(requirements.txt, procfiles and runtime.txt)
 	pip install -r requirements.txt
 	pip list (list dependances)
 	pip freeze > requirements.txt
+	
+	-- install requests
+	python -m pip install requests (pip install requests not work)
+	pip install -r requirements.txt
+	
+	-- ALLOWED_HOSTS
+	ALLOWED_HOSTS = ['dry-sands-91151.herokuapp.com' ]
 	
 Using Heroku CLI (on CMD ternual) type: heroku login
 After login, 
@@ -68,4 +76,7 @@ Starting Code:
 Ending Code:
 	https://github.com/legionscript/deliver/tree/tutorial7
 ```
+## tmp
+Creating app... done, ⬢ dry-sands-91151
+https://dry-sands-91151.herokuapp.com/ | https://git.heroku.com/dry-sands-91151.git
 
