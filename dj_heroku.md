@@ -13,7 +13,7 @@ Step 1: Scaffold a Django Project for Hosting
 -- virtual environment (cd /path/to/new/virtual/environment)
 	1. python -m venv venv
 	2. on PS:  venv\Scripts\Activate.ps1
-	   on CMD: venv>Scripts\activate.bat
+	   on CMD: venv\Scripts\activate.bat
 -- django dependences
 	python -m pip install --upgrade pip
 	python -m pip install django
@@ -51,6 +51,18 @@ Step 1: Scaffold a Django Project for Hosting
 	http://localhost:8000 (killbill708@gmail.com/huanghe1   user:mytest)
 
 Step 2: Create a Local Git Repository
+Step 3: Create a Free Heroku Account (skip, it's done)
+Step 6: Create a Heroku App
+	In a Django project, apps are independent units of code that encapsulate reusable pieces of functionality. On the other hand, Heroku apps work like scalable virtual computers capable of hosting your entire Django project. Every app consists of the source code, a list of dependencies that must be installed, and the commands to run your project.
+	heroku create hw-djlogin
+		https://hw-djlogin.herokuapp.com/ | https://git.heroku.com/hw-djlogin.git
+	heroku git:remote --app hw-djlogin (This will add a remote server named heroku unless specified otherwise)
+Step 7: Deploy Your Django Project to Heroku
+	echo python-3.10.5 > runtime.txt
+	echo "web: python manage.py runserver 0.0.0.0:\$PORT" > Procfile  ???
+	???
+	python -m pip install django-heroku
+	python -m pip freeze > requirements.txt (This will replace your requirements file’s content with the most recent dependencies of the project)
 
 
 	
