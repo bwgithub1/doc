@@ -17,6 +17,7 @@ Step 1: Scaffold a Django Project for Hosting
 -- django dependences
 	python -m pip install --upgrade pip
 	python -m pip install django
+	python -m pip install django-bootstrap4
 	python -m pip list (check installed dependences)
 	python -m pip freeze (check subfolder detail of dependences)
 	
