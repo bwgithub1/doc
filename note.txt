@@ -22,6 +22,8 @@ git add note.txt
 git commit -m "Added comment"
 git push -u origin
 
+pull change ???
+
 git retlog	(show logs)
 rm -fr .git  (remove .git folder and subfolders)
 
